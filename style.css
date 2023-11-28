@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  background-color: plum;
+}
+
+p {
+  text-align: center;
+  background-color: lavender;
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #dadada;
+  margin: 30px auto !important;
+  height: 450px;
+  width: 400px;
+  border: 5px solid #d3d2d2;
+  border-radius: 3px;
+}
+
+.input {
+  border: 1px solid #dcdddf;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+
+#result {
+  text-align: center;
+  background-color: #b9b9b9;
+  color: #919191;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: left;
+  padding: 5px;
+  align-items: center;
+  font-size: xx-large;
+  margin: 8px;
+  margin-top: 15px;
+  /* margin-left: 1rem; */
+  /* margin-right: 1em; */
+}
+
+#equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: #0d6efd;
+}
+
+#divide,
+#multiply,
+#add,
+#subtract,
+#dot {
+  color: blue;
+}
+
+#clear {
+  color: red;
+  
+}
+
+.input:hover {
+  background-color: lightseagreen;
+}
